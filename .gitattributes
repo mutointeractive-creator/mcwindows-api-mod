@@ -1,0 +1,15 @@
+# Text file normalization
+# Default behavior
+# Language detection rules
+*.bat text eol=crlf
+src/**/*.rs linguist-detectable
+*.yaml linguist-detectable=false
+
+*.jpg binary
+public/*.html linguist-vendored
+
+*.rs linguist-detectable
+
+yarn.lock linguist-generated
+
+*.json linguist-detectable=false
